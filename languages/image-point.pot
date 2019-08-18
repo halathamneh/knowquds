@@ -1,0 +1,163 @@
+# Copyright (C) 2017 image-point
+# This file is distributed under the same license as the image-point package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: image-point\n"
+"Report-Msgid-Bugs-To: http://saturnplugins.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language-Team: SaturnPlugins <saturnplugins@gmail.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Language: \n"
+"POT-Creation-Date: 2018-03-21 21:38+0000\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: src/image-point/admin/sip-admin.php:53
+msgid "Are you sure want to remove this point?"
+msgstr ""
+
+#: src/image-point/admin/sip-admin.php:54
+msgid "Choose Image"
+msgstr ""
+
+#: src/image-point/admin/sip-admin.php:87
+msgid "Preview"
+msgstr ""
+
+#: src/image-point/admin/sip-admin.php:88
+msgid "Points"
+msgstr ""
+
+#: src/image-point/admin/sip-admin.php:89
+msgid "Shortcode"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:2
+msgid "Please click on image above to add point."
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:8
+msgid "Point"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:10
+msgid "Remove"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:15
+msgid "Point Icon"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:19
+msgid "Icon Text"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:21
+msgid "Icon Text Color"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:27
+msgid "Icon Image"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:33
+msgid "Icon Background Color"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:42
+msgid "Point Popup"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:46
+msgid "Popup Type"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:49
+msgid "Popup"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:50
+msgid "Link"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:51
+msgid "Product"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:56
+msgid "Popup Title"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:60
+msgid "Popup Content"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:64
+msgid "Popup Link"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:68
+msgid "WooCommerce Product"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:78
+msgid "Popup Position"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:81
+msgid "Top"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:82
+msgid "Bottom"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:83
+msgid "Left"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-points.php:84
+msgid "Right"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-preview.php:2
+msgid "Add Image"
+msgstr ""
+
+#: src/image-point/admin/templates/metabox-shortcode.php:5
+msgid "Please click Publish to see the shortcode"
+msgstr ""
+
+msgid "The building"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Images"
+msgstr ""
+
+msgid "Error, duplicate 1: Add Image"
+msgstr ""
+
+msgid "The Point"
+msgstr ""
+
+msgid "Point Background Color"
+msgstr ""
+
+msgid "Point Border Color"
+msgstr ""

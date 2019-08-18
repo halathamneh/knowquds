@@ -1,0 +1,164 @@
+# Copyright (C) 2017 image-point
+# This file is distributed under the same license as the image-point package.
+msgid ""
+msgstr ""
+"Project-Id-Version: image-point\n"
+"Report-Msgid-Bugs-To: http://saturnplugins.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-03-21 21:40+0000\n"
+"Language-Team: Arabic\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100 >= 3 "
+"&& n%100<=10 ? 3 : n%100 >= 11 && n%100<=99 ? 4 : 5;\n"
+"POT-Creation-Date: 2018-03-21 21:38+0000\n"
+"Last-Translator: معلومة مقدسية <qudsinfo14@gmail.com>\n"
+"Language: ar\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: src/image-point/admin/sip-admin.php:53
+msgid "Are you sure want to remove this point?"
+msgstr "هل أنت متأكد من أنك تريد حذف هذه النقطة؟"
+
+#: src/image-point/admin/sip-admin.php:54
+msgid "Choose Image"
+msgstr "اختر صورة"
+
+#: src/image-point/admin/sip-admin.php:87
+msgid "Preview"
+msgstr "معاينة"
+
+#: src/image-point/admin/sip-admin.php:88
+msgid "Points"
+msgstr "النقاط"
+
+#: src/image-point/admin/sip-admin.php:89
+msgid "Shortcode"
+msgstr "الكود"
+
+#: src/image-point/admin/templates/metabox-points.php:2
+msgid "Please click on image above to add point."
+msgstr "الرجاء الضغط على الصورة في الاعلى لإضافة نقاط"
+
+#: src/image-point/admin/templates/metabox-points.php:8
+msgid "Point"
+msgstr "نقطة"
+
+#: src/image-point/admin/templates/metabox-points.php:10
+msgid "Remove"
+msgstr "حذفإزالة"
+
+#: src/image-point/admin/templates/metabox-points.php:15
+msgid "Point Icon"
+msgstr "أيقونة النقطة"
+
+#: src/image-point/admin/templates/metabox-points.php:19
+msgid "Icon Text"
+msgstr "الكلام على النقطة"
+
+#: src/image-point/admin/templates/metabox-points.php:21
+msgid "Icon Text Color"
+msgstr "لو الكلام على النقطة"
+
+#: src/image-point/admin/templates/metabox-points.php:27
+msgid "Icon Image"
+msgstr "صورة أيقونة"
+
+#: src/image-point/admin/templates/metabox-points.php:33
+msgid "Icon Background Color"
+msgstr "لون الخلفية للأيقونة"
+
+#: src/image-point/admin/templates/metabox-points.php:42
+msgid "Point Popup"
+msgstr "النافذة المنبثقة"
+
+#: src/image-point/admin/templates/metabox-points.php:46
+msgid "Popup Type"
+msgstr "النوع"
+
+#: src/image-point/admin/templates/metabox-points.php:49
+msgid "Popup"
+msgstr "نافذة منبثقة"
+
+#: src/image-point/admin/templates/metabox-points.php:50
+msgid "Link"
+msgstr "رابط"
+
+#: src/image-point/admin/templates/metabox-points.php:51
+msgid "Product"
+msgstr "منتج"
+
+#: src/image-point/admin/templates/metabox-points.php:56
+msgid "Popup Title"
+msgstr "العنوان"
+
+#: src/image-point/admin/templates/metabox-points.php:60
+msgid "Popup Content"
+msgstr "محتوى النافذة المنبثقة"
+
+#: src/image-point/admin/templates/metabox-points.php:64
+msgid "Popup Link"
+msgstr "رابط النافذة المنبثقة"
+
+#: src/image-point/admin/templates/metabox-points.php:68
+msgid "WooCommerce Product"
+msgstr "منتج WooCommerce"
+
+#: src/image-point/admin/templates/metabox-points.php:78
+msgid "Popup Position"
+msgstr "موقع النافذة"
+
+#: src/image-point/admin/templates/metabox-points.php:81
+msgid "Top"
+msgstr "أعلى"
+
+#: src/image-point/admin/templates/metabox-points.php:82
+msgid "Bottom"
+msgstr "أسفل"
+
+#: src/image-point/admin/templates/metabox-points.php:83
+msgid "Left"
+msgstr "يسار"
+
+#: src/image-point/admin/templates/metabox-points.php:84
+msgid "Right"
+msgstr "يمين"
+
+#: src/image-point/admin/templates/metabox-preview.php:2
+msgid "Add Image"
+msgstr "إضافة صور"
+
+#: src/image-point/admin/templates/metabox-shortcode.php:5
+msgid "Please click Publish to see the shortcode"
+msgstr "الرجاء الضغط على نشر لرؤية الكود"
+
+msgid "The building"
+msgstr "المعلم"
+
+msgid "Title"
+msgstr "اسم المعلم"
+
+msgid "Content"
+msgstr "شرح عن المعلم"
+
+msgid "Images"
+msgstr "صور المعلم"
+
+msgid "Error, duplicate 1: Add Image"
+msgstr ""
+
+msgid "The Point"
+msgstr "النقطة"
+
+msgid "Point Background Color"
+msgstr "لون النقطة"
+
+msgid "Point Border Color"
+msgstr "لون حواف النقطة"
