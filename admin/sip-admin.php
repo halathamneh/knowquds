@@ -92,8 +92,8 @@ class SIP_Admin
 
     public function add_meta_boxes()
     {
-        add_meta_box('sip-preview', __('Preview', 'image-point'), array($this, 'output_metabox_preview'), 'image_point', 'normal', 'high');
         add_meta_box('sip-points', __('Points', 'image-point'), array($this, 'output_metabox_points'), 'image_point', 'normal', 'high');
+        add_meta_box('sip-preview', __('Preview', 'image-point'), array($this, 'output_metabox_preview'), 'image_point', 'normal', 'high');
         add_meta_box('sip-shortcode', __('Shortcode', 'image-point'), array($this, 'output_metabox_shortcode'), 'image_point', 'side', 'high');
     }
 

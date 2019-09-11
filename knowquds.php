@@ -1,11 +1,9 @@
 <?php
 /*
-Plugin Name: Image Point
-Plugin URI: http://saturnplugins.com
+Plugin Name: Know Quds
 Description: A lightweight and responsive image map WordPress plugin
-Author: SaturnPlugins
-Version: 1.0.1
-Author URI: http://saturnplugins.com/
+Author: Haitham Alathamneh
+Version: 1.0.12
 */
 
 class ST_Image_Point
@@ -24,10 +22,10 @@ class ST_Image_Point
             include_once(SIP_PATH . '/inc/sip-render.php');
         }
 
-        load_plugin_textdomain('image-point', false, dirname(plugin_basename(__FILE__)) . '/languages/');
+        load_plugin_textdomain('knowquds', false, dirname(plugin_basename(__FILE__)) . '/languages');
 
         add_action('init', array($this, 'register_post_type'));
-        add_shortcode('image_point', array($this, 'shortcode'));
+        add_shortcode('knowquds', array($this, 'shortcode'));
     }
 
     public function register_post_type()
@@ -35,19 +33,19 @@ class ST_Image_Point
         register_post_type('image_point',
             array(
                 'labels' => array(
-                    'name' => __('مجموعات المعالم', 'saturnthemes-post-types'),
-                    'singular_name' => __('مجموعة معالم', 'saturnthemes-post-types'),
-                    'menu_name' => _x('تعرف على القدس', 'Admin menu name', 'saturnthemes-post-types'),
-                    'add_new' => __('إضافة مجموعة معالم', 'saturnthemes-post-types'),
-                    'add_new_item' => __('إضافة مجموعة معالم جديدة', 'saturnthemes-post-types'),
-                    'edit' => __('تعديل', 'saturnthemes-post-types'),
-                    'edit_item' => __('تعديل مجموعة المعالم', 'saturnthemes-post-types'),
-                    'new_item' => __('مجموعة معالم جديدة', 'saturnthemes-post-types'),
-                    'view' => __('عرض مجموعة المعالم', 'saturnthemes-post-types'),
-                    'view_item' => __('عرض مجموعة المعالم', 'saturnthemes-post-types'),
-                    'search_items' => __('بحث عن مجموعة معالم', 'saturnthemes-post-types'),
-                    'not_found' => __('لم يتم العثور على مجموعات معالم', 'saturnthemes-post-types'),
-                    'not_found_in_trash' => __('لا يوجد مجموعات معالم في سلة المهملات', 'saturnthemes-post-types'),
+                    'name' => __('مجموعات المعالم', 'knowquds'),
+                    'singular_name' => __('مجموعة معالم', 'knowquds'),
+                    'menu_name' => _x('تعرف على القدس', 'Admin menu name', 'knowquds'),
+                    'add_new' => __('إضافة مجموعة معالم', 'knowquds'),
+                    'add_new_item' => __('إضافة مجموعة معالم جديدة', 'knowquds'),
+                    'edit' => __('تعديل', 'knowquds'),
+                    'edit_item' => __('تعديل مجموعة المعالم', 'knowquds'),
+                    'new_item' => __('مجموعة معالم جديدة', 'knowquds'),
+                    'view' => __('عرض مجموعة المعالم', 'knowquds'),
+                    'view_item' => __('عرض مجموعة المعالم', 'knowquds'),
+                    'search_items' => __('بحث عن مجموعة معالم', 'knowquds'),
+                    'not_found' => __('لم يتم العثور على مجموعات معالم', 'knowquds'),
+                    'not_found_in_trash' => __('لا يوجد مجموعات معالم في سلة المهملات', 'knowquds'),
                 ),
                 'public' => true,
                 "publicly_queryable" => true,
@@ -67,12 +65,12 @@ class ST_Image_Point
         );
 
         $labels = array(
-            "name" => __('تصنيفات تعرف على القدس', 'illdy'),
-            "singular_name" => __('تصنيف', 'illdy'),
+            "name" => __('تصنيفات تعرف على القدس', 'qi-theme'),
+            "singular_name" => __('تصنيف', 'qi-theme'),
         );
 
         $args = array(
-            "label" => __('تصنيفات تعرف على القدس', 'illdy'),
+            "label" => __('تصنيفات تعرف على القدس', 'qi-theme'),
             "labels" => $labels,
             "public" => true,
             "hierarchical" => true,
@@ -151,7 +149,7 @@ class ST_Image_Point
                 <li class="point-details card active">
                     <div class="card-body">
                         <div class="empty">
-                            <i class="fa fa-exclamation-circle"></i> اختر نقطة من الخريطة
+                            <i class="fa fa-exclamation-circle"></i> <?= __("Pick a point from the map", "knowquds") ?>
                         </div>
                     </div>
                 </li>
