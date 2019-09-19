@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/qudsin5/public_html/wp-content/plugins/knowquds
-    - exec ~/repositories/knowquds/postdeploy.sh
+    - export DEPLOYPATH=/home/qudsin5/public_html/wp-content/plugins/
+    - yes | cp -rf ~/repositories/knowquds $DEPLOYPATH
